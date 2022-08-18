@@ -1,0 +1,25 @@
+.button {
+    height: 60px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    color: #293462;
+    justify-content: center;
+    border-radius: 16px;
+    background: #D61C4E;
+    box-shadow:  -18px 18px 51px #7a102c,
+             18px -18px 51px #ff2870;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    
+}
+
+.button:active {
+    border-radius: 16px;
+    background: #D61C4E;
+    box-shadow: inset -18px 18px 51px #7a102c,
+                inset 18px -18px 51px #ff2870;
+     outline: none;
+}

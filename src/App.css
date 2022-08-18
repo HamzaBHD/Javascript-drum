@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+* {
+  padding : 0;
+  margin :0 ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  width : 100vw;
+  height: 100vh;
+  background-color: #D61C4E;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.drum-machine {
+  width : 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.display {
+  border-radius: 43px;
+border-radius: 43px;
+background: #D61C4E;
+box-shadow:  -18px 18px 51px #7a102c,
+             18px -18px 51px #ff2870;
+  width: 600px;
+  height: 350px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.buttons--container {
+  max-width: 300px;
+  height: 300px;
+  padding: 20px;
+  display: grid;
+  grid-template: repeat(3, auto) / repeat(3, auto) ;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.control--container {
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .display {
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-height: 700px) {
+
+  .drum-machine {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
   }
+    .display {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .buttons--container {
+    max-width: 100px;
+    height: 100px;
+  }
+  
 }
