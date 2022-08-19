@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/javaScript-drum/static/css/main.3f15c7e0.css",
-    "main.js": "/javaScript-drum/static/js/main.cb037a8c.js",
-    "static/media/bootstrap-icons.woff?": "/javaScript-drum/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
-    "static/media/bootstrap-icons.woff2?": "/javaScript-drum/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
-    "static/media/digital.ttf": "/javaScript-drum/static/media/digital.93911ab167c943140756.ttf",
-    "index.html": "/javaScript-drum/index.html",
-    "main.3f15c7e0.css.map": "/javaScript-drum/static/css/main.3f15c7e0.css.map",
-    "main.cb037a8c.js.map": "/javaScript-drum/static/js/main.cb037a8c.js.map"
+    "main.css": "/Javascript-drum/static/css/main.3b61da23.css",
+    "main.js": "/Javascript-drum/static/js/main.cb037a8c.js",
+    "static/media/bootstrap-icons.woff?": "/Javascript-drum/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/Javascript-drum/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/digital.ttf": "/Javascript-drum/static/media/digital.93911ab167c943140756.ttf",
+    "index.html": "/Javascript-drum/index.html",
+    "main.3b61da23.css.map": "/Javascript-drum/static/css/main.3b61da23.css.map",
+    "main.cb037a8c.js.map": "/Javascript-drum/static/js/main.cb037a8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f15c7e0.css",
+    "static/css/main.3b61da23.css",
     "static/js/main.cb037a8c.js"
   ]
 }
